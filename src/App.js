@@ -18,7 +18,7 @@ function App() {
           <Route exact path='/rolldice' component={RollDice} />
           <Route exact path='/lottery' component={Lottery} />
           <Route exact path='/coinflipper' component={CoinFlipper} />
-          <Route render={() => <h1>Oops! You should'nt have come here!</h1>}/>
+          <Route render={() => <h1>{"{err: 404, msg: Page Not Found}"}</h1>}/>
         </Switch>
       </Layout>
     </div>
