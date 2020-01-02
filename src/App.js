@@ -18,6 +18,7 @@ function App() {
           <Route exact path='/rolldice' component={RollDice} />
           <Route exact path='/lottery' component={Lottery} />
           <Route exact path='/coinflipper' component={CoinFlipper} />
+          <Route component={() => <h1>Oops! You should'nt have come here!</h1>}/>
         </Switch>
       </Layout>
     </div>
