@@ -1,0 +1,7 @@
+.Ball{
+  background-color: coral;
+  color: white;
+  padding: 20px 23px;
+  border-radius: 50%;
+  margin: 10px;
+}
