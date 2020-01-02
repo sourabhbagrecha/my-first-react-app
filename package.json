@@ -2,7 +2,7 @@
   "name": "learning-react-state",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sourabhbagrecha.github.io/my-firt-react-project",
+  "homepage": "https://sourabhbagrecha.github.io/my-first-react-project",
   "dependencies": {
     "@material-ui/core": "^4.8.2",
     "react": "^16.8.6",
