@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-firt-react-project/static/css/main.0a7db816.chunk.css",
-    "main.js": "/my-firt-react-project/static/js/main.2fa4eba6.chunk.js",
-    "main.js.map": "/my-firt-react-project/static/js/main.2fa4eba6.chunk.js.map",
+    "main.js": "/my-firt-react-project/static/js/main.08cc60b8.chunk.js",
+    "main.js.map": "/my-firt-react-project/static/js/main.08cc60b8.chunk.js.map",
     "runtime~main.js": "/my-firt-react-project/static/js/runtime~main.85cc0fc3.js",
     "runtime~main.js.map": "/my-firt-react-project/static/js/runtime~main.85cc0fc3.js.map",
     "static/js/2.42ae6044.chunk.js": "/my-firt-react-project/static/js/2.42ae6044.chunk.js",
     "static/js/2.42ae6044.chunk.js.map": "/my-firt-react-project/static/js/2.42ae6044.chunk.js.map",
     "index.html": "/my-firt-react-project/index.html",
-    "precache-manifest.41e2fc920ca10006f9e06ffb4a3c1b4e.js": "/my-firt-react-project/precache-manifest.41e2fc920ca10006f9e06ffb4a3c1b4e.js",
+    "precache-manifest.01d12ac5daa9218855be6e1ac03e6ce2.js": "/my-firt-react-project/precache-manifest.01d12ac5daa9218855be6e1ac03e6ce2.js",
     "service-worker.js": "/my-firt-react-project/service-worker.js",
     "static/css/main.0a7db816.chunk.css.map": "/my-firt-react-project/static/css/main.0a7db816.chunk.css.map"
   }
