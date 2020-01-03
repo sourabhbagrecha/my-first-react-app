@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/my-first-react-app/static/css/main.0c731ce2.chunk.css",
-    "main.js": "/my-first-react-app/static/js/main.70910bdc.chunk.js",
-    "main.js.map": "/my-first-react-app/static/js/main.70910bdc.chunk.js.map",
+    "main.js": "/my-first-react-app/static/js/main.4cf6274a.chunk.js",
+    "main.js.map": "/my-first-react-app/static/js/main.4cf6274a.chunk.js.map",
     "runtime~main.js": "/my-first-react-app/static/js/runtime~main.79d2f31f.js",
     "runtime~main.js.map": "/my-first-react-app/static/js/runtime~main.79d2f31f.js.map",
-    "static/js/2.5d2afef4.chunk.js": "/my-first-react-app/static/js/2.5d2afef4.chunk.js",
-    "static/js/2.5d2afef4.chunk.js.map": "/my-first-react-app/static/js/2.5d2afef4.chunk.js.map",
+    "static/js/2.83304f1c.chunk.js": "/my-first-react-app/static/js/2.83304f1c.chunk.js",
+    "static/js/2.83304f1c.chunk.js.map": "/my-first-react-app/static/js/2.83304f1c.chunk.js.map",
     "index.html": "/my-first-react-app/index.html",
-    "precache-manifest.cbf9186028f58f203d647738d62cbb63.js": "/my-first-react-app/precache-manifest.cbf9186028f58f203d647738d62cbb63.js",
+    "precache-manifest.b96bc8b54ac6b46cdb413a10bd6028b6.js": "/my-first-react-app/precache-manifest.b96bc8b54ac6b46cdb413a10bd6028b6.js",
     "service-worker.js": "/my-first-react-app/service-worker.js",
     "static/css/main.0c731ce2.chunk.css.map": "/my-first-react-app/static/css/main.0c731ce2.chunk.css.map",
     "static/media/button.PNG": "/my-first-react-app/static/media/button.7ca38b6d.PNG",
     "static/media/coinflipper.PNG": "/my-first-react-app/static/media/coinflipper.8b3f9543.PNG",
     "static/media/lottery.PNG": "/my-first-react-app/static/media/lottery.1f49d764.PNG",
     "static/media/number-app.PNG": "/my-first-react-app/static/media/number-app.b5148483.PNG",
+    "static/media/pokegame.PNG": "/my-first-react-app/static/media/pokegame.f2b0d90a.PNG",
     "static/media/rolldice.PNG": "/my-first-react-app/static/media/rolldice.9367433a.PNG"
   }
 }
