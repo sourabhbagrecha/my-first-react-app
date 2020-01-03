@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a5b7c4254b1e15cb84d6049532f2b7e",
+    "revision": "f9b3c64c7a2f195c78045953729f641f",
     "url": "/my-first-react-app/index.html"
   },
   {
-    "revision": "31a13350bc59bc728339",
-    "url": "/my-first-react-app/static/css/main.0c731ce2.chunk.css"
+    "revision": "fd1fde72b95f91420746",
+    "url": "/my-first-react-app/static/css/main.2465d423.chunk.css"
   },
   {
-    "revision": "765a7ab65e93552d1417",
-    "url": "/my-first-react-app/static/js/2.4ed45ee3.chunk.js"
+    "revision": "e7b97a6ee3235de19683",
+    "url": "/my-first-react-app/static/js/2.40cdaf25.chunk.js"
   },
   {
-    "revision": "31a13350bc59bc728339",
-    "url": "/my-first-react-app/static/js/main.586c88fe.chunk.js"
+    "revision": "fd1fde72b95f91420746",
+    "url": "/my-first-react-app/static/js/main.bbdef2b4.chunk.js"
   },
   {
     "revision": "41238a9ce76a4a3779e5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8b3f95432c7d7f83e4a71f5b18b9e5cd",
     "url": "/my-first-react-app/static/media/coinflipper.8b3f9543.PNG"
+  },
+  {
+    "revision": "2896efc529a7cfe9b2617874c3ea0a33",
+    "url": "/my-first-react-app/static/media/lightsout.2896efc5.PNG"
   },
   {
     "revision": "1f49d7649ed2013607f0f7362e9d03c1",
