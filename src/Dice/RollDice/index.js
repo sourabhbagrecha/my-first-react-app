@@ -21,7 +21,7 @@ class RollDice extends React.Component{
   }
   render(){
     return(
-    <div className="DiceRoller container" style={{ width: '400px'}}>
+    <div className="DiceRoller" style={{ width: '400px'}}>
       <div className="row">
         <div className="col-6">
           <Die num={this.state.die1} rolling={this.state.rolling}/>

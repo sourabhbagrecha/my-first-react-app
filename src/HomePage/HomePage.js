@@ -10,12 +10,14 @@ class HomePage extends Component {
                 <RouteDisplay {...i}>{i.path}</RouteDisplay>
             </Col>));
         return (
-            <Container>
-                <h1 style={{textAlign: "center", color: "#00272c", fontSize: "4rem", fontFamily: 'Roboto', fontWeight: '700'}}>Getting started with react!</h1>
-                <Row>
-                    {items}
-                </Row>
-            </Container>
+            <div style={{display: "flex", justifyContent: "center"}}>
+                <Container>
+                    <h1 style={{textAlign: "center", color: "#00272c", fontSize: "4rem", fontFamily: 'Roboto', fontWeight: '700'}}>Getting started with react!</h1>
+                    <Row>
+                        {items}
+                    </Row>
+                </Container>
+            </div>
         )
     }
 }

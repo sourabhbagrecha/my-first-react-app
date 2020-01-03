@@ -56,7 +56,7 @@ class Pokegame extends React.Component{
     }
 
     return(
-      <div className="container">
+      <div className="container" style={{display: "flex", justifyContent: "center"}}>
         {finalDiv}
       </div>
     )
