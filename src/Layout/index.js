@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Layout.css'
 
 class Layout extends Component{
     render(){
         return (
             <div>
-                <Navbar expand="lg">
-                    <Navbar.Brand><b>My First React App</b></Navbar.Brand>
+                <Navbar expand="lg" bg="light">
+                    <Navbar.Brand>
+                        <Link className="navbar-brand-link" to="/">My First React App</Link>
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
