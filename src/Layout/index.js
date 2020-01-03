@@ -5,6 +5,7 @@ import './Layout.css'
 
 class Layout extends Component{
     render(){
+        const renderLinks = this.props.routes.map(r => <NavLink exact className="nav-link" activeClassName="active-nav-link" to={`${r.path}`}> {r.name} </NavLink>)
         return (
             <div>
                 <Navbar expand="lg" bg="light">
@@ -14,21 +15,7 @@ class Layout extends Component{
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/button">
-                                Button         
-                            </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/number-app">
-                                Number App       
-                            </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/rolldice">
-                                Dice Roller    
-                            </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/lottery">
-                                Lottery App          
-                            </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/coinflipper">
-                                Coin Flipper
-                            </NavLink>
+                            {renderLinks}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

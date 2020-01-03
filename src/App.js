@@ -18,17 +18,17 @@ import HomePage from './HomePage/HomePage';
 
 function App() {
   const routes = [
-    {path:'/pokegame',       img: pokegameImg,    component:Pokegame    },
-    {path:'/button',         img: buttonImg,      component:Button      },
-    {path:'/number-app',     img: numberAppImg,   component:NumberApp   },
-    {path:'/rolldice',       img: rollDiceImg,    component:RollDice    },
-    {path:'/lottery',        img: lotteryImg,     component:Lottery     },
-    {path:'/coinflipper',    img: coinflipperImg, component:CoinFlipper },
+    {path:'/pokegame',       img: pokegameImg,    component:Pokegame,    name:"Pokegame"},
+    {path:'/button',         img: buttonImg,      component:Button,      name:"Button"},
+    {path:'/number-app',     img: numberAppImg,   component:NumberApp,   name:"Number"},
+    {path:'/rolldice',       img: rollDiceImg,    component:RollDice,    name:"Roll Dice"},
+    {path:'/lottery',        img: lotteryImg,     component:Lottery,     name:"Lottery"},
+    {path:'/coinflipper',    img: coinflipperImg, component:CoinFlipper, name:"Coin Flipper"},
   ];
   const routesRender = routes.map(r => <Route exact path={r.path} component={r.component}/>);
   return (
     <div className="App">
-      <Layout>
+      <Layout routes={routes}>
         <Switch>
           {routesRender}
           <Route render={() => <HomePage routes={routes} /> }/>
