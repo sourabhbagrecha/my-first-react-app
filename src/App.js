@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Button from './Button';
+import Pokegame from './Pokegame';
 import NumberApp from './NumberApp';
 import RollDice from './Dice/RollDice';
 import Lottery from './LotteryGame/Lottery';
@@ -12,10 +13,12 @@ import coinflipperImg from "./routeImages/coinflipper.PNG";
 import lotteryImg from "./routeImages/lottery.PNG";
 import numberAppImg from "./routeImages/number-app.PNG";
 import rollDiceImg from "./routeImages/rolldice.PNG";
+import pokegameImg from "./routeImages/pokegame.PNG";
 import HomePage from './HomePage/HomePage';
 
 function App() {
   const routes = [
+    {path:'/pokegame',       img: pokegameImg,    component:Pokegame    },
     {path:'/button',         img: buttonImg,      component:Button      },
     {path:'/number-app',     img: numberAppImg,   component:NumberApp   },
     {path:'/rolldice',       img: rollDiceImg,    component:RollDice    },
